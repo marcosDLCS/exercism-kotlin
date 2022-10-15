@@ -1,0 +1,30 @@
+= exercism-kotlin
+
+Platform: https://exercism.org/
+
+Public profile: https://exercism.org/profiles/marcosDLCS
+
+Kotlin Track: https://exercism.org/tracks/kotlin
+
+List of exercises:
+
+* link:./acronym[acronym]
+* link:./crypto-square[crypto-square]
+* link:./darts/[darts]
+* link:./difference-of-squares[difference-of-squares]
+* link:./dnd-character[dnd-character]
+* link:./gigasecond[gigasecond]
+* link:./hamming[hamming]
+* link:./hello-world[hello-world]
+* link:./matrix[matrix]
+* link:./pangram[pangram]
+* link:./raindrops[raindrops]
+* link:./reverse-string/[reverse-string]
+* link:./rna-transcription[rna-transcription]
+* link:./saddle-points[saddle-points]
+* link:./scrabble-score[scrabble-score]
+* link:./secret-handshake[secret-handshake]
+* link:./space-age[space-age]
+* link:./triangle[triangle]
+* link:./two-fer[two-fer]
+* link:./yacht[yacht]
