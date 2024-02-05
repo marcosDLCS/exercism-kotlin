@@ -4,4 +4,9 @@ object CryptoSquare {
         TODO("Implement the function to complete the task")
     }
 
+    private fun String.normalize(): String {
+        return this.toLowerCase().replace(Regex(""), "")
+    }
+
+
 }

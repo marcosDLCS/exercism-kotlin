@@ -6,10 +6,23 @@ Public profile: https://exercism.org/profiles/marcosDLCS
 
 Kotlin Track: https://exercism.org/tracks/kotlin
 
-List of exercises:
+List of ongoing exercises:
+
+* link:./armstrong-numbers[armstrong-numbers]
+* link:./custom-set[custom-set]
+* link:./crypto-square[crypto-square]
+* link:./perfect-numbers[perfect-numbers]
+* link:./protein-translation[protein-translation]
+* link:./resistor-color[resistor-color]
+* link:./resistor-color-duo[resistor-color-duo]
+* link:./resistor-color-trio[resistor-color-trio]
+* link:./run-length-encoding[run-length-encoding]
+* link:./scale-generator[scale-generator]
+* link:./transpose[transpose]
+
+List of completed exercises:
 
 * link:./acronym[acronym]
-* link:./crypto-square[crypto-square]
 * link:./darts/[darts]
 * link:./difference-of-squares[difference-of-squares]
 * link:./dnd-character[dnd-character]
@@ -17,6 +30,7 @@ List of exercises:
 * link:./hamming[hamming]
 * link:./hello-world[hello-world]
 * link:./matrix[matrix]
+* link:./leap[leap]
 * link:./pangram[pangram]
 * link:./raindrops[raindrops]
 * link:./reverse-string/[reverse-string]

@@ -1,8 +1,10 @@
 pluginManagement {
+
     repositories {
         mavenCentral()
         gradlePluginPortal()
     }
+
     resolutionStrategy {
         eachPlugin {
             when (requested.id.id) {
