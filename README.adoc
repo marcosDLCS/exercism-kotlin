@@ -6,7 +6,9 @@ Public profile: https://exercism.org/profiles/marcosDLCS
 
 Kotlin Track: https://exercism.org/tracks/kotlin
 
-List of ongoing exercises:
+List of _ongoing_ exercises:
+
+*EASY*
 
 * link:./armstrong-numbers[armstrong-numbers]
 * link:./custom-set[custom-set]
@@ -19,7 +21,9 @@ List of ongoing exercises:
 * link:./scale-generator[scale-generator]
 * link:./transpose[transpose]
 
-List of completed exercises:
+List of _completed_ exercises:
+
+*EASY*
 
 * link:./acronym[acronym]
 * link:./darts/[darts]
@@ -28,17 +32,20 @@ List of completed exercises:
 * link:./gigasecond[gigasecond]
 * link:./hamming[hamming]
 * link:./hello-world[hello-world]
-* link:./matrix[matrix]
 * link:./leap[leap]
 * link:./pangram[pangram]
 * link:./raindrops[raindrops]
 * link:./resistor-color[resistor-color]
 * link:./reverse-string/[reverse-string]
 * link:./rna-transcription[rna-transcription]
-* link:./saddle-points[saddle-points]
 * link:./scrabble-score[scrabble-score]
 * link:./secret-handshake[secret-handshake]
 * link:./space-age[space-age]
-* link:./triangle[triangle]
 * link:./two-fer[two-fer]
 * link:./yacht[yacht]
+
+*MEDIUM*
+
+* link:./matrix[matrix]
+* link:./saddle-points[saddle-points]
+* link:./triangle[triangle]
