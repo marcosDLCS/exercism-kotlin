@@ -1,40 +1,27 @@
-class CustomSet() {
+class CustomSet(vararg values: Int) {
 
-    // TODO: implement proper constructor
+    private var mySet: Set<Int> = values.toSet()
 
-    fun isEmpty(): Boolean {
-        TODO("Implement this function to complete the task")
+    fun isEmpty() = mySet.isEmpty()
+
+    fun isSubset(other: CustomSet) = mySet.isEmpty() || other.mySet.containsAll(mySet)
+
+    fun isDisjoint(other: CustomSet) = mySet.all { it !in other.mySet }
+
+    fun contains(value: Int) = value in mySet
+
+    fun intersection(other: CustomSet) = CustomSet(*mySet.intersect(other.mySet).toIntArray())
+
+    fun add(value: Int) {
+        mySet += value
     }
 
-    fun isSubset(other: CustomSet): Boolean {
-        TODO("Implement this function to complete the task")
-    }
+    override fun equals(other: Any?) =
+        other is CustomSet && mySet.size == other.mySet.size && mySet.containsAll(other.mySet)
 
-    fun isDisjoint(other: CustomSet): Boolean {
-        TODO("Implement this function to complete the task")
-    }
+    operator fun plus(other: CustomSet) = CustomSet(*other.mySet.toIntArray(), *mySet.toIntArray())
 
-    fun contains(other: Int): Boolean {
-        TODO("Implement this function to complete the task")
-    }
+    operator fun minus(other: CustomSet) = CustomSet(*mySet.minus(other.mySet).toIntArray())
 
-    fun intersection(other: CustomSet): CustomSet {
-        TODO("Implement this function to complete the task")
-    }
-
-    fun add(other: Int) {
-        TODO("Implement this function to complete the task")
-    }
-
-    override fun equals(other: Any?): Boolean {
-        TODO("Implement this function to complete the task")
-    }
-
-    operator fun plus(other: CustomSet): CustomSet {
-        TODO("Implement this function to complete the task")
-    }
-
-    operator fun minus(other: CustomSet): CustomSet {
-        TODO("Implement this function to complete the task")
-    }
+    override fun hashCode() = mySet.hashCode()
 }

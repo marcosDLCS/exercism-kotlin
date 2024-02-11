@@ -11,7 +11,6 @@ List of _ongoing_ exercises:
 *EASY*
 
 * link:./armstrong-numbers[armstrong-numbers]
-* link:./custom-set[custom-set]
 * link:./crypto-square[crypto-square]
 * link:./perfect-numbers[perfect-numbers]
 * link:./protein-translation[protein-translation]
@@ -24,6 +23,7 @@ List of _completed_ exercises:
 *EASY*
 
 * link:./acronym[acronym]
+* link:./custom-set[custom-set]
 * link:./darts/[darts]
 * link:./difference-of-squares[difference-of-squares]
 * link:./dnd-character[dnd-character]
