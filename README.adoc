@@ -14,7 +14,6 @@ List of _ongoing_ exercises:
 * link:./crypto-square[crypto-square]
 * link:./perfect-numbers[perfect-numbers]
 * link:./protein-translation[protein-translation]
-* link:./run-length-encoding[run-length-encoding]
 * link:./scale-generator[scale-generator]
 * link:./transpose[transpose]
 
@@ -38,6 +37,7 @@ List of _completed_ exercises:
 * link:./resistor-color-trio[resistor-color-trio]
 * link:./reverse-string/[reverse-string]
 * link:./rna-transcription[rna-transcription]
+* link:./run-length-encoding[run-length-encoding]
 * link:./scrabble-score[scrabble-score]
 * link:./secret-handshake[secret-handshake]
 * link:./space-age[space-age]
