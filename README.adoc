@@ -10,7 +10,6 @@ List of _ongoing_ exercises:
 
 *EASY*
 
-* link:./armstrong-numbers[armstrong-numbers]
 * link:./crypto-square[crypto-square]
 * link:./scale-generator[scale-generator]
 * link:./transpose[transpose]
@@ -20,6 +19,7 @@ List of _completed_ exercises:
 *EASY*
 
 * link:./acronym[acronym]
+* link:./armstrong-numbers[armstrong-numbers]
 * link:./custom-set[custom-set]
 * link:./darts/[darts]
 * link:./difference-of-squares[difference-of-squares]

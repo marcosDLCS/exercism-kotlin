@@ -1,7 +1,13 @@
+import kotlin.math.pow
+
 object ArmstrongNumber {
 
     fun check(input: Int): Boolean {
-        TODO("Implement the function to complete the task")
-    }
 
+        val str = input.toString()
+
+        if (str.length <= 1) return true
+
+        return str.map { it.toString().toDouble().pow(str.length) }.sum().toInt() == input
+    }
 }
