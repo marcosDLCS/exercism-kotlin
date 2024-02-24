@@ -13,7 +13,6 @@ List of _ongoing_ exercises:
 * link:./armstrong-numbers[armstrong-numbers]
 * link:./crypto-square[crypto-square]
 * link:./perfect-numbers[perfect-numbers]
-* link:./protein-translation[protein-translation]
 * link:./scale-generator[scale-generator]
 * link:./transpose[transpose]
 
@@ -31,6 +30,7 @@ List of _completed_ exercises:
 * link:./hello-world[hello-world]
 * link:./leap[leap]
 * link:./pangram[pangram]
+* link:./protein-translation[protein-translation]
 * link:./raindrops[raindrops]
 * link:./resistor-color[resistor-color]
 * link:./resistor-color-duo[resistor-color-duo]
