@@ -13,6 +13,16 @@ List of _ongoing_ exercises:
 * link:./crypto-square[crypto-square]
 * link:./scale-generator[scale-generator]
 
+*MEDIUM*
+
+* link:./beer-song[beer-song]
+* link:./word-count[word-count]
+
+*HARD*
+
+* link:./react[react]
+* link:./zebra-puzzle[zebra-puzzle]
+
 List of _completed_ exercises:
 
 *EASY*
@@ -49,3 +59,7 @@ List of _completed_ exercises:
 * link:./matrix[matrix]
 * link:./saddle-points[saddle-points]
 * link:./triangle[triangle]
+
+*HARD*
+
+😩
