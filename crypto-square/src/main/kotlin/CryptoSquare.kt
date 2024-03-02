@@ -1,24 +1,25 @@
 import java.util.*
+import kotlin.math.ceil
 import kotlin.math.sqrt
 
 object CryptoSquare {
 
+    private const val EMPTY = ""
+
     fun ciphertext(plaintext: String): String {
 
-        // Test 01: empty plaintext results in empty ciphertext
-        if (plaintext.isEmpty()) return ""
+        if (plaintext.isEmpty()) return EMPTY
 
-        // Test 02: letters are lower cased during encryption
-        // Test 03: spaces are removed during encryption
-        // Test 04: punctuation is removed during encryption
         val normalizedText = plaintext.normalize()
 
-        return normalizedText
+        val c = ceil(sqrt(normalizedText.length.toDouble())).toInt()
+
+        return normalizedText.chunked(c)
+            .let { list -> (0 until c).joinToString(" ") { idx -> list.map { it.getOrNull(idx) ?: ' ' }.joinToString(EMPTY) }
+        }
     }
 
     private fun String.normalize(): String {
-        return this
-            .lowercase(Locale.getDefault())
-            .replace(Regex("[\\s\\p{P}]"), "")
+        return this.lowercase(Locale.getDefault()).replace(Regex("[\\s\\p{P}]"), EMPTY)
     }
 }

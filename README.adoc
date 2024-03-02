@@ -27,7 +27,6 @@ List of _ongoing_ exercises:
 
 === *easy*
 
-* link:./crypto-square[crypto-square]
 * link:./scale-generator[scale-generator]
 
 === *medium*
@@ -48,6 +47,7 @@ List of _completed_ exercises:
 
 * link:./acronym[acronym]
 * link:./armstrong-numbers[armstrong-numbers]
+* link:./crypto-square[crypto-square]
 * link:./custom-set[custom-set]
 * link:./darts/[darts]
 * link:./difference-of-squares[difference-of-squares]
